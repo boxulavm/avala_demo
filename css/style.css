@@ -1,0 +1,213 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+.navbar{
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+}
+
+.navbar-brand{
+    margin-left: 50px;
+    font-family: 'Black Ops One', cursive;
+}
+
+#navbarSupportedContent{
+    text-align: center;
+    margin-left: 10%;
+}
+
+
+/* Header */
+.header{
+    background: url('https://images.unsplash.com/photo-1520869562399-e772f042f422?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.header-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    /* background-image: linear-gradient(20deg , rgba(183,28,28, 0.82),  rgba(27, 94, 32, 0.82)); */
+}
+
+.learn-more-btn {
+    background-color: #b71c1c ;
+    color: #fff;
+}
+
+.header-text{
+    margin-top: 16rem;
+    margin-bottom: 15em;
+}
+
+.header-text h1,h4{
+    font-family: 'Black Ops One', cursive, 'Times New Roman', Times, serif;
+}
+
+.btn-more:hover{
+    background: #2e7d32;
+    color: #fff;
+    transition: 0.1s ease-in;
+}
+
+.btn-more{
+    background: transparent;
+    color: #fff;
+    border: 2px solid #2e7d32;
+    transition: 0.1s ease-in;
+}
+
+/* Icons */
+
+#icons {
+    background: #d3d3d3;
+}
+
+.icon-title-div{
+    color: #2e7d32;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.icon-title{
+    font-family: 'Black Ops One', cursive;
+}
+
+.icon-title__underline{
+    background: #2e7d32;
+    width: 5rem;
+    height: .25rem;
+}
+
+#icons h3{
+    font-family: 'Black Ops One', cursive; 
+}
+
+#icons .icon {
+    background-color: #2e7d32;
+    color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    transition: 0.6s ease-in-out;
+}
+
+#icons .icon:hover{
+    transform: rotateY(180deg);
+    transition: 0.6s ease-in-out;
+}
+
+/* About */
+
+.section-about{
+    background: #2e7d32;
+}
+
+.section-about p{
+    font-size: 1.1rem;
+}
+
+.section-title-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.section-title{
+    font-family: 'Black Ops One', cursive;
+}
+
+.section-title__underline{
+    background: #fff;
+    width: 5rem;
+    height: .25rem;
+}
+
+.about-img{
+    border: 5px solid #d0d0d0;
+    border-radius: 10px;
+}
+
+.about-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Contact */
+
+.contact{
+    background-image: url('https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 600px;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+
+.contact-overlay{
+    background-color: rgba(31, 31, 31, 0.9);
+    height: 600px;
+}
+
+.contact .icon{
+    background-color: #212121;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 25px;
+    border-radius: 50%;
+    transition: 0.6s ease-in-out;
+}
+
+.contact .icon:hover{
+    transform: rotateY(180deg);
+    transition: 0.6s ease-in-out;
+}
+
+/* Footer */
+
+footer{
+    background: #111111;
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 500px){
+    .navbar-brand{
+        margin-left: 0px;
+    }
+    
+    .header-text{
+        margin-top: 160px;
+    }
+
+    .header-text h1{
+        font-size: 30px;
+    }
+
+    .header-text h3{
+        font-size: 20px;
+    }
+
+    .header{
+        height: 550px;
+    }
+    .header-overlay{
+        height: 550px;
+    }
+}
